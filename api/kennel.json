@@ -1,0 +1,65 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Shepherd"
+    },
+    {
+      "id": 3,
+      "name": "Esme",
+      "breed": "Pitbull"
+    },
+    {
+      "id": 4,
+      "name": "Good Boy",
+      "breed": "Golden Retriever"
+    },
+    {
+      "id": 5,
+      "name": "Meeko",
+      "breed": "Husky"
+    },
+    {
+      "id": 6,
+      "name": "Teft",
+      "breed": "GSP"
+    },
+    {
+      "id": 7,
+      "name": "Kal",
+      "breed": "Black Lab"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Fred"
+    },
+    {
+      "id": 2,
+      "name": "Freddy"
+    },
+    {
+      "id": 3,
+      "name": "Freddo"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "1 Place Road"
+    },
+    {
+      "id": 2,
+      "address": "2 Place Road"
+    },
+    {
+      "id": 3,
+      "address": "3 Place Road"
+    }
+  ],
+  "owners": [
+    {"id":1, "name":"DeAngelo Jeremetrius Vickers", "phoneNumber":"5555555555"}
+  ]
+}
