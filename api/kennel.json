@@ -3,32 +3,38 @@
     {
       "id": 2,
       "name": "Decker",
-      "breed": "German Shepherd"
+      "breed": "German Shepherd",
+      "employeeId":1
     },
     {
       "id": 3,
       "name": "Esme",
-      "breed": "Pitbull"
+      "breed": "Pitbull",
+      "employeeId":2
     },
     {
       "id": 4,
       "name": "Good Boy",
-      "breed": "Golden Retriever"
+      "breed": "Golden Retriever",
+      "employeeId":1
     },
     {
       "id": 5,
       "name": "Meeko",
-      "breed": "Husky"
+      "breed": "Husky",
+      "employeeId":2
     },
     {
       "id": 6,
       "name": "Teft",
-      "breed": "GSP"
+      "breed": "GSP",
+      "employeeId":3
     },
     {
       "id": 7,
       "name": "Kal",
-      "breed": "Black Lab"
+      "breed": "Black Lab",
+      "employeeId":3
     }
   ],
   "employees": [
@@ -60,6 +66,41 @@
     }
   ],
   "owners": [
-    {"id":1, "name":"DeAngelo Jeremetrius Vickers", "phoneNumber":"5555555555"}
+    {"id":1, "name":"DeAngelo Jeremetrius Vickers", "phoneNumber":"5555555555"},
+    {"id":2, "name":"Michael Gary Scott", "phoneNumber":"1234567890"},
+    {"id":3, "name":"Dwight Kurt Schrute", "phoneNumber":"5551237654"},
+    {"id":4, "name":"Kevin Jaye Malone", "phoneNumber":"5557654321"}
+  ],
+  "ownership": [
+    {
+      "id": 1,
+      "animalId": 3,
+      "ownerId": 2
+    },
+    {
+      "id": 2,
+      "animalId": 4,
+      "ownerId": 3
+    },
+    {
+      "id": 3,
+      "animalId": 2,
+      "ownerId": 3
+    },
+    {
+      "id": 4,
+      "animalId": 5,
+      "ownerId": 3
+    },
+    {
+      "id": 5,
+      "animalId": 6,
+      "ownerId": 3
+    },
+    {
+      "id": 6,
+      "animalId": 7,
+      "ownerId": 3
+    }
   ]
 }
